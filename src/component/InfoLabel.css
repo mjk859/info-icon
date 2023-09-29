@@ -1,0 +1,29 @@
+/* Add styles for the info icon and tooltip */
+.info-label {
+    position: relative;
+  }
+  
+  .info-icon {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .info-tooltip {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-left: 10px;
+    color: #333;
+  }
+  .info-tooltip.visible {
+    display: block;
+  }
